@@ -1,0 +1,22 @@
+html{
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+    width: 20px!important;
+    height: 20px!important;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--primary)!important;
+}
+
+::-webkit-scrollbar-corner {
+    background: var(--primary)!important;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--secondary)!important;
+    border-radius: 20px!important;
+    border: 5px solid var(--primary)!important;
+}
